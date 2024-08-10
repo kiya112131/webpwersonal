@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Form</title>
+          <style type="text/css">
+            body {
+                background-color: rgb(147, 147, 187);
+            }
+            h1 {
+                background-color: brown;
+                padding: 10px;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                font-size: large;
+            }
+          </style>
+    </head>
+    <body>
+        <form action="simpan.php" menthod="POST">
+            <h1>Data Diri</h1>
+            <p>
+                   
+                Masukkan data diri kalian
+            </p>
+            <p>
+                Nama<br/>
+                <input type="text" name="nama"/>
+            </p>
+            <p>
+                email<br>
+                <input type="text" name="email"/>
+            </p>
+            <p>
+                Anda tahu ini darini mana?
+                <select name="referensi">
+                <option value="instagram">instagram</option>
+                <option value="youtube">youtube</option>
+                </select>
+            </p>
+            <p>
+                apakah anda kesini lagi<br/>
+                <input type="radio" name="kesini"/> ya
+                <input type="radio" name="kesini"/> tidak
+            </p>
+            <p>
+                kesan dan pesan
+                <textarea cols="20" rows="2" name="pesan">
+                </textarea>
+            </p>
+        </form>
+        <hr/>
+        
+    </body>
+</html>
+
